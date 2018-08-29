@@ -1,0 +1,4 @@
+cc_library_headers {
+    name: "qseecom-kernel-headers",
+    export_include_dirs: ["."],
+}
