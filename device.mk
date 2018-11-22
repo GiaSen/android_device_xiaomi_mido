@@ -20,7 +20,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -242,10 +241,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
     lights.msm8953
-
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@1.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
