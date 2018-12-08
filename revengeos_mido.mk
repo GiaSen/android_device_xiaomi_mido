@@ -24,9 +24,10 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common AOSP stuff.
 IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
-TARGET_DENSITY := xsxhdpi
+TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
-
+USE_GCAM := true
+REVENGEOS_BUILDTYPE := OFFICIAL
 # Inherit some common RevengeOS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
 $(call inherit-product, vendor/revengeos/config/gsm.mk)
