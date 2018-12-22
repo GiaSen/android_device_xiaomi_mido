@@ -119,7 +119,11 @@ vendor.vidc.enc.disable_bframes=1
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sys.fw.dex2oat_thread_count=8 \
-ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.extension_library=libqti-perfd-client.so \
+vendor.iop.enable_uxe=1 \
+vendor.perf.iop_v3.enable=1 \
+ro.vendor.at_library=libqti-at.so \
+persist.vendor.qti.games.gt.prof=1
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
