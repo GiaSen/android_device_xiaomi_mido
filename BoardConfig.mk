@@ -202,6 +202,9 @@ TARGET_RIL_VARIANT := caf
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-12-05
 
+# Disable qmi EAP-SIM security
+DISABLE_EAP_PROXY := true
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
