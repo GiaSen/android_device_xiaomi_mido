@@ -16,14 +16,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="false">
-        <name>android.frameworks.sensorservice</name>
-        <version>1.0</version>
-        <interface>
-            <name>ISensorManager</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="false">
         <name>android.hardware.graphics.composer</name>
         <version>2.1</version>
         <interface>
