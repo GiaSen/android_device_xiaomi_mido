@@ -1,1 +1,2 @@
+add_lunch_combo revengeos_mido-user
 add_lunch_combo revengeos_mido-userdebug
