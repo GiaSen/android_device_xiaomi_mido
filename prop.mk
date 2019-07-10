@@ -81,6 +81,7 @@ persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
 ro.sf.lcd_density=420 \
+debug.sdm.support_writeback=0 \
 ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
