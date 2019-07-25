@@ -32,6 +32,7 @@
 #include <pthread.h>
 #include <errno.h>
 #include <fcntl.h>
+#include <unistd.h>
 #include <media/msm_media_info.h>
 #include <unistd.h>
 
