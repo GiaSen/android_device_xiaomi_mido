@@ -110,6 +110,13 @@ vendor.hw.fm.init=0
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# IMS debug
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.ims.disableADBLogs=1 \
+persist.vendor.ims.disableDebugLogs=1 \
+persist.vendor.ims.disableIMSLogs=1 \
+persist.vendor.ims.disableQXDMLogs=1
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
