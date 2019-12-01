@@ -4,5 +4,23 @@
     "target_path": "packages/apps/WallpapersBReel2019",
     "branch": "ten",
     "remote": "pixel-gitlab"
+  },
+  {
+    "remote":      "github",
+    "repository":  "GiaSen/android_kernel_xiaomi_mido",
+    "target_path": "kernel/xiaomi/mido",
+    "branch":      "ten"
+  },
+  {
+    "remote":      "github",
+    "repository":  "GiaSen/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":      "lineage-17.0"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-17.0",
+    "remote": "github"
   }
 ]
