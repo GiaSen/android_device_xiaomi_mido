@@ -391,7 +391,7 @@ PRODUCT_COPY_FILES += \
 
 # Wallpapers
 PRODUCT_PACKAGES += \
-    WallpapersBReel2019
+    PixelLiveWallpaperPrebuilt
 
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
