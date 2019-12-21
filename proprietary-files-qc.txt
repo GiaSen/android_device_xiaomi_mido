@@ -439,6 +439,7 @@ vendor/lib64/libqmi_encdec.so|68fb631317150d66fd1a39c48f8ef9e0405bbdf2
 vendor/lib64/libqmiservices.so|842a1b61fad7dd34753e945ee2ada0fdc9589c09
 
 # Radio - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml|0536410f98ef3be8ca7630ba8e9383e41e423ceb
 -app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|3a6bc2a522270f968ff5a332b8781c0289e6d1ef
@@ -511,7 +512,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|99296dc2831410fe
 vendor/radio/qcril_database/qcril.db|f25a9215fcc2445e73d1aa0b7ef9bdbd97e33f56
 
 # Radio (IMS) - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
--priv-app/ims/ims.apk|10d64cbbd275431b5e346296c66d894685f8ff8e
 lib/com.qualcomm.qti.imscmservice@1.0.so|7d7af9bdbe6048ad5842c30929a9be822fbea7f6
 lib/com.qualcomm.qti.imscmservice@2.0.so|075c6068f3e469e795217fac58a82be2d9102c68
 lib/com.qualcomm.qti.imscmservice@2.1.so|cec69294cb4a3033e462cd735c09dd28263e3ffa
@@ -531,8 +531,6 @@ lib64/lib-imsvideocodec.so|dc2f0d36e67f2b465e1fdd803631f6dc67c4ce63
 lib64/lib-imsvt.so|7dfc533fc3c439a608b219838281d6c5f605ee22
 lib64/lib-imsvtextutils.so|dc3340321ee2543bb35248d0f9dac4718116a073
 lib64/lib-imsvtutils.so|13480b644ed5290f7ddc2f7c304c0e912f416098
-lib64/libimscamera_jni.so|133fec4e7be337eb255eb226c4ff96ae53b94be7
-lib64/libimsmedia_jni.so|17a2cb31fb5960769b4c2c0636fffe721c4f2a74
 lib64/librcc.so|4d732d9211e3139ed17fae059edfcd71f0e13d7e
 lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 vendor/bin/ims_rtp_daemon|174be7387753db4b72fa4de305edaa80fe79b6a9
@@ -577,6 +575,11 @@ vendor/lib64/lib-uceservice.so|31dae56817e9a47849cac15a8812b12ebec6bca9
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|5567616f4792889965b1bc254b245d5323ab6516
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f4eef520bbf98e6e1ac8697ef7eef0109487dba1
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
+
+# Radio - IMS - from LA.UM.8.6.r1-01900-89xx.0
+product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
+product/lib64/libimsmedia_jni.so|e50217e9eb8878136614db66313508ac970a2b42
+-product/priv-app/ims/ims.apk|ce41daca328db67984843588e8bafa7e0eb53a0a
 
 # Sensors - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
 vendor/bin/sensors.qti|726b3597792d1c714a47549d4d27599672795000
