@@ -600,10 +600,10 @@ vendor/bin/thermal-engine|bbf772d4acf6c11413d2f728140aae63a49d3eae
 -vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
 vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
 
-# Time services - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
--vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
-vendor/bin/time_daemon|bc58af8ed0cc94708aa75372565f4251991ab123
-vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
+# Time services - from LA.UM.8.6.r1-01900-89xx.0
+-vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
+vendor/bin/time_daemon|fa1b87481313fc039d969c1ac7c06c77422ff38e
+vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
 
 # TUI - from Tissot PKQ1.180917.001.V10.0.11.0.PDHMIXM
 lib/vendor.qti.hardware.tui_comm@1.0.so|ee831dc9bd07c33882390761742c7881e68689f9
