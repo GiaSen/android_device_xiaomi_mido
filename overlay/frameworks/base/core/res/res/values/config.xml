@@ -627,4 +627,6 @@
     <!-- Button brightness -->
     <bool name="config_button_brightness_support">true</bool>
 
+    <!-- Flag indicating whether the device supports dynamic font contrast handling -->
+    <bool name="config_dynamic_font_contrast_available">true</bool>
 </resources>
