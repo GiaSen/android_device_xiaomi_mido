@@ -447,6 +447,9 @@
     <!-- Whether the always on display mode is available. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+
     <!--AlwaysOnDisplay disabled by default -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
