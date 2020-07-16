@@ -134,7 +134,8 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera \
     libshim_camera \
-    Snap
+    Snap \
+    Camera2
 
 # Consumerir
 PRODUCT_PACKAGES += \
