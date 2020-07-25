@@ -634,4 +634,7 @@
 
     <!-- Flag indicating whether the device supports dynamic font contrast handling -->
     <bool name="config_dynamic_font_contrast_available">true</bool>
+
+    <!-- Whether Device support LiveDisplay or not -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 </resources>
